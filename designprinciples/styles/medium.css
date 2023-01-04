@@ -1,0 +1,32 @@
+@media (min-width: 1000px) {
+  body {
+    background-color: aquamarine;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1000px 1000px;
+  }
+
+  .principle1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .principle2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .principle3 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}

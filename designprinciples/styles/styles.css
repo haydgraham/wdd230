@@ -1,0 +1,31 @@
+body {
+  background-color: bisque;
+}
+header {
+  text-align: center;
+  background-color: #006db0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #5a5a5a;
+  width: 400px;
+  margin: 0 auto 1rem auto;
+}
+
+img {
+  height: 700px;
+}
+
+p {
+  padding: 1rem;
+  color: white;
+}
