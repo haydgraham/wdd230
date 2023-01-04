@@ -1,8 +1,4 @@
 @media (min-width: 1400px) {
-  body {
-    background-color: blueviolet;
-  }
-
   main {
     grid-template-columns: 1fr 1fr 1fr;
   }

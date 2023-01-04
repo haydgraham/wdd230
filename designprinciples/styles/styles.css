@@ -1,12 +1,12 @@
-body {
-  background-color: bisque;
-}
 header {
   text-align: center;
-  background-color: #006db0;
+  background-color: #1c1c1c;
+  color: white;
+  padding: 1rem;
 }
 
 main {
+  margin: 1rem;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -19,13 +19,27 @@ div {
   background-color: #5a5a5a;
   width: 400px;
   margin: 0 auto 1rem auto;
+  border-radius: 5px;
 }
 
 img {
   height: 700px;
 }
 
+h3 {
+  color: white;
+}
 p {
   padding: 1rem;
   color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+a:hover {
+  color: yellow;
 }
